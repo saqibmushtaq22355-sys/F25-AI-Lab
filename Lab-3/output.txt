@@ -1,0 +1,9 @@
+BFS (['A', 'B', 'E', 'G'], ['A', 'B', 'C', 'D', 'E', 'F', 'G'])
+DFS (['A', 'B', 'E', 'G'], ['A', 'B', 'D', 'E', 'G'])
+DLS 1 ('CUTOFF', None, ['A', 'B', 'C'])
+DLS 2 ('CUTOFF', None, ['A', 'B', 'D', 'E', 'C', 'F'])
+DLS 3 ('FOUND', ['A', 'B', 'E', 'G'], ['A', 'B', 'D', 'E', 'G'])
+DLS 4 ('FOUND', ['A', 'B', 'E', 'G'], ['A', 'B', 'D', 'E', 'G'])
+IDDFS ['A', 'B', 'E', 'G'] [(0, 'CUTOFF', None, ['A']), (1, 'CUTOFF', None, ['A', 'B', 'C']), (2, 'CUTOFF', None, ['A', 'B', 'D', 'E', 'C', 'F']), (3, 'FOUND', ['A', 'B', 'E', 'G'], ['A', 'B', 'D', 'E', 'G'])]
+weighted BFS ['A', 'C', 'G'] cost 24 order ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+UCS (['A', 'B', 'E', 'G'], 3, ['A', 'B', 'D', 'E', 'G'])
