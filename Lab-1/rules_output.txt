@@ -1,0 +1,5 @@
+name | input | expected | actual | pass | reason
+pass | score=82, complete=True, gpa=3.5, recommendation=True | Review | Review | True | all transparent conditions satisfied
+gpa_failure | score=82, complete=True, gpa=2.9, recommendation=True | Hold | Hold | True | GPA below synthetic threshold 3.0
+recommendation_failure | score=82, complete=True, gpa=3.5, recommendation=False | Hold | Hold | True | recommendation missing
+score_boundary | score=70, complete=True, gpa=3.0, recommendation=True | Review | Review | True | all transparent conditions satisfied

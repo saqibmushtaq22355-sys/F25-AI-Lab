@@ -1,0 +1,5 @@
+case | score | complete | probability | symbolic | threshold | disagreement
+complete_high | 82 | True | 0.81 | Review | Review | False
+complete_low | 68 | True | 0.74 | Hold | Review | True
+incomplete_high | 91 | False | 0.88 | Hold | Review | True
+boundary | 70 | True | 0.70 | Review | Review | False
